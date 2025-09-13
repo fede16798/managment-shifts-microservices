@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: patients
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/patients_db?serverTimezone=UTC
+    username: ***
+    password: ***
+
+server:
+  port: 9001
