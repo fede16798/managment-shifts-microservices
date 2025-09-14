@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: shifts
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/shifts_db?serverTimezone=UTC
+    username: root
+    password: ****
+
+server:
+  port: 9002
